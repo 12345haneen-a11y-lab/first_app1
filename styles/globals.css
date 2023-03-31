@@ -1,4 +1,4 @@
-:root {
+/*:root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +104,52 @@ a {
   html {
     color-scheme: dark;
   }
+}*/
+.div1{
+  display:flex ;
+  margin-top: 5rem;
+}
+.div1 a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.div2 p{
+  color: white;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+.div2 span{
+  color: #000;
+  font-size: 2rem;
+}
+.div2 {
+  width: 50%;
+  display: grid;
+  background-color: #9d7171;
+  margin-left: 7rem;
+  margin-top: 1rem;
+}
+.div2 a{
+  color:white;
+  text-decoration: none;
+ padding: 1rem;
+}
+.div2 a:hover{
+  color: #000;
+}
+.header{
+   margin-left: 7rem;
+   margin-top: 3rem;
+}
+.header a{
+  text-decoration: none;
+  color: #000;
+  padding: 5rem;
+  font-size: 1.5rem;
+}
+h1{
+  color: #000;
+  margin-left: 8rem;
+  padding-right: 5rem ;
 }
